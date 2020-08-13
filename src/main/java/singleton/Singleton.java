@@ -1,5 +1,7 @@
 package singleton;
 
+import java.io.Serializable;
+
 /**
  * Create the private constructor to avoid any new object creation with new operator.
  *
@@ -23,7 +25,7 @@ package singleton;
  * Extra if condition
  */
 
-public class Singleton {
+public class Singleton  implements Serializable {
 
     /*
      volatile has semantics for memory visibility.
