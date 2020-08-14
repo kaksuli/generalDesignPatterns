@@ -1,10 +1,10 @@
-package singleton;
+package creational.singleton;
 
 import java.io.*;
 import java.util.logging.Logger;
 
 public class Main {
-    private static final Logger logger = Logger.getLogger("singleton.Main");
+    private static final Logger logger = Logger.getLogger("creational.singleton.Main");
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 

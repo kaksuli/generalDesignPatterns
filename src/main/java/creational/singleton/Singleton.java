@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * Declare a private static instance of the same class.
  *
- * Provide a public static method that will return the singleton class instance variable.
+ * Provide a public static method that will return the creational.singleton class instance variable.
  *      If the variable is not initialized then initialize it or else simply return the instance variable.
  *
  * @author sulaiman kadkhodaei
@@ -23,9 +23,14 @@ import java.io.Serializable;
  * Cons:
  *
  * Extra if condition
+ *
+ * Singleton Design Pattern Examples in JDK:
+ *
+ * java.lang.Runtime#getRuntime()
+ * java.awt.Desktop#getDesktop()
  */
 
-public class Singleton  implements Serializable {
+public class Singleton implements Serializable {
 
     /*
      volatile has semantics for memory visibility.

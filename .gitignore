@@ -1,7 +1,4 @@
-
 /generalDesignPatterns.iml
-/pom.xml
-/.idea/sonarlint/issuestore/index.pb
+/.idea
 /filename.ser
-/target/classes/singleton/Main.class
-/target/classes/singleton/Singleton.class
+/target
