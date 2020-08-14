@@ -3,7 +3,7 @@ package creational.factory;
 import java.util.logging.Logger;
 
 public class Main {
-	private static final Logger logger = Logger.getLogger("creational.singleton.Main");
+	private static final Logger logger = Logger.getLogger("creational.factory.Main");
 
 	public static void main(String[] args) {
 
